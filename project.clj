@@ -1,10 +1,10 @@
-(defproject clojupyter "0.3.2"
+(defproject org.clojars.krukow/clojupyter "0.3.3"
   :description			"A Jupyter kernel for Clojure"
   :license			{:name "MIT"}
-  :url				"https://github.com/clojupyter/clojupyter"
+  :url				"https://github.com/krukow/clojupyter"
 
 
-  :scm				{:name "git" :url "https://github.com/clojupyter/clojupyter"}
+  :scm				{:name "git" :url "https://github.com/krukow/clojupyter"}
   :source-paths			[] ;; provided by lein-tools-deps
   :resource-paths		[] ;; provided by lein-tools-deps
   :profiles			{:dev		{:dependencies 	[[midje "1.9.6" :exclusions [org.clojure/clojure]]]
